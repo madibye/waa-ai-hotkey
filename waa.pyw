@@ -1,4 +1,6 @@
-import pyperclip, urllib, requests, sys
+import pyperclip
+import urllib
+import requests
 
 cb = pyperclip.paste()
 if "https://" in cb and "waa.ai" not in cb:
